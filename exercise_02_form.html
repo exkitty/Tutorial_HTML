@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercise_02</title>
+    </head>
+    <body>
+        <h1>H2 Computing Sign up Form</h1>
+        <form action = "exercise_02_response.html" method = "GET">
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="first name" placeholder="First Name"></td>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="last name" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="email" placeholder="name@email.com"></td>
+                    <td>Contact:</td>
+                    <td><input type="text" name="contact"></td>
+                </tr>
+                <tr>
+                    <td>Class:</td>
+                    <td><input type="text" name="class"></td>
+                    <td>Gender</td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Others</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" value="2000-01-01"></td>
+                </tr>
+            </table>
+            <p>Subject Combination
+                <br />
+                <input type="radio" name="subject" /> P CP M E
+                <br />
+                <input type="radio" name="subject" /> C CP M E
+                <br />
+                <input type="radio" name="subject" /> Other:<input type="text" name="subject" />
+            </p>
+            <input type="submit">
+        </form>
+    </body>
+</html>
